@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - chatgpt-vocalos-apk-20260825
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
